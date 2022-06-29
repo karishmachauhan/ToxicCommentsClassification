@@ -7,7 +7,7 @@ Today social media platforms are very prevalent and people spend most of their t
 While identifying toxic comments from social media Machine Learning Models are bound to have a bias in the model for certain sensitive categories. For example if some abusive comments use word 'gay' a lot then it will classify even non-toxic comments as toxic which contains this word. Our goal is to minimize this unintended bias in the model while classifying the comments from Data Source:Online Hate Index Research Project at D-Lab, University of California, Berkeley.
 
 ### Notebook of detailed code
-<a href=''>Toxic Comments Classifier</a>
+<a href='https://github.com/karishmachauhan/ToxicCommentsClassification/blob/main/LSTMandGRU.ipynb'>Toxic Comments Classifier</a>
 
 ### Outcome
 We were able to minimize the unintended bias from the comments for certain sensitive groups. Please refer following diagram for accuracy metric across different subgroups.
