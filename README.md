@@ -53,6 +53,9 @@ The model has been trained for 2 epochs using an initial LR of 2e-5, a warmup of
 | 2a |  0.9229     |     0.9239 |
 
 
+<br> </br>
+
+
 |subgroup	|subgroup_size|	subgroup_auc	|bpsn_auc|	bnsp_auc
 |:---: | :---: | :---: | :---: | :---: |
 |2	|homosexual_gay_or_lesbian|	735	0.870923|	0.845379	|0.971873
