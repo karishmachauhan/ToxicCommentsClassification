@@ -15,7 +15,7 @@ While identifying toxic comments from social media Machine Learning Models are b
 
 ### Data Description
 
-After some Exploratory analysis we found out that 92 % of data belong to the non-toxic class and 7 % of data belong to the toxic class. In all subgroups, there are 77.55 % of comments have NAN values. Below word cloud shows threatening words in comments.
+After some Exploratory analysis we found out that 92 % of data belong to the non-toxic class and 7 % of data belong to the toxic class. In all subgroups, there are 77.55 % of comments have NAN values. Below word cloud shows threatening words in comments.<br>
 <img src='https://github.com/karishmachauhan/ToxicCommentsClassification/blob/main/Screen%20Shot%202022-06-29%20at%207.40.47%20PM.png' alt='Word Cloud' height="300" width="400">
 
 ### Outcome
