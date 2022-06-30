@@ -7,7 +7,7 @@ Today social media platforms are very prevalent and people spend most of their t
 1. [Goal](#goal)
 2. [Data Description](#data-description)
 3. <a href='https://github.com/karishmachauhan/ToxicCommentsClassification/blob/main/LSTMandGRU.ipynb'>Toxic Comments Classifier Notebook</a>
-4. [Evalution Metrics](#Evalution Metrics)
+4. [Evalution Metrics](#Evalution_Metrics)
 5. [Outcome](#outcome)
 
 
