@@ -6,10 +6,14 @@ Today social media platforms are very prevalent and people spend most of their t
 ### Goal
 While identifying toxic comments from social media Machine Learning Models are bound to have a bias in the model for certain sensitive categories. For example if some abusive comments use word 'gay' a lot then it will classify even non-toxic comments as toxic which contains this word. Our goal is to minimize this unintended bias in the model while classifying the comments from Data Source:Online Hate Index Research Project at D-Lab, University of California, Berkeley.
 
+### Data Description
+
+After some Exploratory analysis we found out that 92 % of data belong to the non-toxic class and 7 % of data belong to the toxic class. In all subgroups, there are 77.55 % of comments have NAN values. Below word cloud shows threatening words in comments.
+<img src='https://github.com/karishmachauhan/ToxicCommentsClassification/blob/main/Screen%20Shot%202022-06-29%20at%207.40.47%20PM.png' alt='Word Cloud' height="300" width="400">
+
+
 ### Notebook of detailed code
-<a href='https://github.com/karishmachauhan/ToxicCommentsClassification/blob/main/LSTMandGRU.ipynb'>Toxic Comments Classifier</a>
+<a href='https://github.com/karishmachauhan/ToxicCommentsClassification/blob/main/LSTMandGRU.ipynb'>Toxic Comments Classifier </a>
 
 ### Outcome
-We were able to minimize the unintended bias from the comments for certain sensitive groups. Please refer following diagram for accuracy metric across different subgroups.
-
-
+We were able to minimize the unintended bias from the comments for certain sensitive groups. We got bias accuracy for test approximately 0.92.
