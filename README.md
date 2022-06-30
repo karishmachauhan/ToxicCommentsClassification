@@ -7,8 +7,8 @@ Today social media platforms are very prevalent and people spend most of their t
 1. [Goal](#goal)
 2. [Data Description](#data-description)
 3. <a href='https://github.com/karishmachauhan/ToxicCommentsClassification/blob/main/LSTMandGRU.ipynb'>Toxic Comments Classifier Notebook</a>
-4. [Outcome](#outcome)
-5. [Evalution Metrics](#Evalution Metrics)
+4. [Evalution Metrics](#Evalution Metrics)
+5. [Outcome](#outcome)
 
 
 ### Goal
@@ -18,19 +18,6 @@ While identifying toxic comments from social media Machine Learning Models are b
 
 After some Exploratory analysis we found out that 92 % of data belong to the non-toxic class and 7 % of data belong to the toxic class. In all subgroups, there are 77.55 % of comments have NAN values. Below word cloud shows threatening words in comments.<br>
 <img src='https://github.com/karishmachauhan/ToxicCommentsClassification/blob/main/Screen%20Shot%202022-06-29%20at%207.40.47%20PM.png' alt='Word Cloud' height="300" width="400">
-
-### Outcome
-We were able to minimize the unintended bias from the comments for certain sensitive groups. We got bias accuracy for test approximately 0.92.
-
-The model has been trained for 2 epochs using an initial LR of 2e-5, a warmup of 0.1 and Adam algorithm as optimizer:
-
-
-| Epoch        | Train BIAS AUC          | Test Bias AUC  |
-| ------------- |:-------------:| -----:|
-| 1      | 0.9018 |0.9216|
-| 2       | 0.9229      |    0.9220 |
-| 1a |0.9222|    0.9214 |
-| 2a |  0.9229     |     0.9239 |
 
 
 ### Evalution Metrics
@@ -51,4 +38,19 @@ A = number of submetrics (3)
 ms,a = bias metric for identity subgroup s using submetric a
 
 wa = a weighting for the relative importance of each submetric; all four w values set to 0.25
+
+
+### Outcome
+We were able to minimize the unintended bias from the comments for certain sensitive groups. We got bias accuracy for test approximately 0.92.
+
+The model has been trained for 2 epochs using an initial LR of 2e-5, a warmup of 0.1 and Adam algorithm as optimizer:
+
+
+| Epoch        | Train BIAS AUC          | Test Bias AUC  |
+| ------------- |:-------------:| -----:|
+| 1      | 0.9018 |0.9216|
+| 2       | 0.9229      |    0.9220 |
+| 1a |0.9222|    0.9214 |
+| 2a |  0.9229     |     0.9239 |
+
 
