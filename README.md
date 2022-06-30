@@ -20,3 +20,15 @@ After some Exploratory analysis we found out that 92 % of data belong to the non
 
 ### Outcome
 We were able to minimize the unintended bias from the comments for certain sensitive groups. We got bias accuracy for test approximately 0.92.
+
+The model has been trained for 2 epochs using an initial LR of 2e-5, a warmup of 0.1 and Adam algorithm as optimizer:
+
+
+| Epoch        | Train BIAS AUC          | Test Bias AUC  |
+| ------------- |:-------------:| -----:|
+| 1      | 0.9018 |0.9216|
+| 2       | 0.9229      |    0.9220 |
+| 1a |0.9222|    0.9214 |
+| 2a |  0.9229     |     0.9239 |
+
+
